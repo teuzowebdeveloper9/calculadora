@@ -1,5 +1,3 @@
-import './mainStyles.css'
-
 function App() {
   
 
