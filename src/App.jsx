@@ -1,10 +1,17 @@
-import './App.css'
+import './mainStyles.css'
 
 function App() {
   
 
   return (
-   <h1>calculadora</h1>
+    <div>
+ 
+  
+    <h1>calculadora</h1>
+  
+
+    </div>
+  
   )
 }
 
