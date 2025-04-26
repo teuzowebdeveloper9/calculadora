@@ -1,15 +1,16 @@
+import React from 'react'
+import './mainStyles.css'
+
 function App() {
-  
-
   return (
-    <div>
- 
-  
-    <h1>calculadora</h1>
-  
-
+    <div className="container">
+      <div className="left-light"></div>
+      <div className="right-light"></div>
+      <div className='input'>
+       <input placeholder='calculadora'></input>
+      </div>
+      
     </div>
-  
   )
 }
 
