@@ -6,7 +6,6 @@ function App() {
   const [result, setResult] = useState('')
 
   const calculate = (expression) => {
-    // Remove espaços em branco e divide a expressão em números e operadores
     const tokens = expression.match(/(\d+\.?\d*)|[+\-*/]/g) || [];
     
     if (!tokens.length) return '';
@@ -42,7 +41,7 @@ function App() {
   }
 
   const handleNumber = (value) => {
-    if (result !== '') {
+    if (result === 'Error') {
       setDisplay(value)
       setResult('')
     } else {
@@ -53,6 +52,7 @@ function App() {
   const handleOperator = (operator) => {
     if (display !== '' && !display.endsWith(operator)) {
       setDisplay(display + operator)
+      setResult('')
     }
   }
 
