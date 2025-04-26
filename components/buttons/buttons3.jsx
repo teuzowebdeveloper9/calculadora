@@ -1,13 +1,13 @@
 import '../buttons/styles.css';
 
-function Button (){
+function Button3 (){
     return(
         <>
         <div className='row'>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <p>4</p>
+        <p>9</p>
+        <p>+</p>
+        <p>-</p>
+        <p>=</p>
         </div>
         
         </>
@@ -15,4 +15,4 @@ function Button (){
     )
 }
 
-export default Button;
+export default Button3;

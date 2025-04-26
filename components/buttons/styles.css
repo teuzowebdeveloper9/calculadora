@@ -1,2 +1,18 @@
-
-
+p{
+    color :white;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #635656;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    margin: 4px;
+}
+p:hover{
+    background-color: red;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
