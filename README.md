@@ -5,6 +5,11 @@ Preferi criar do meu jeito, com uma estrutura mais limpa, moderna e uma **interf
 
 ![demonstração ](image.png)
 
+## deploy na vercel
+
+https://calculadora-nine-gamma.vercel.app/
+
+
 ## 🔥 Diferenciais em relação ao projeto original da DIO
 
 - 🎨 **Estilo próprio** com design aprimorado
